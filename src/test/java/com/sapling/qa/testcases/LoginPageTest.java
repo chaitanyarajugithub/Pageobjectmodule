@@ -5,9 +5,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.crm.qa.base.TestBase;
-import com.crm.qa.pages.HomePage;
-import com.crm.qa.pages.LoginPage;
+import com.sapling.qa.base.TestBase;
+import com.sapling.qa.pages.HomePage;
+import com.sapling.qa.pages.LoginPage;
 
 public class LoginPageTest extends TestBase{
 	LoginPage loginPage;

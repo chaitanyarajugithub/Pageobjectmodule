@@ -19,11 +19,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
-import com.crm.qa.base.TestBase;
-import com.crm.qa.pages.ContactsPage;
-import com.crm.qa.pages.HomePage;
-import com.crm.qa.pages.LoginPage;
-import com.crm.qa.util.TestUtil;
+import com.sapling.qa.base.TestBase;
+import com.sapling.qa.pages.ContactsPage;
+import com.sapling.qa.pages.HomePage;
+import com.sapling.qa.pages.LoginPage;
+import com.sapling.qa.util.TestUtil;
 
 public class ContactsPageTest extends TestBase{
 
