@@ -10,20 +10,20 @@ import com.sapling.qa.base.TestBase;
 public class LoginPage extends TestBase{
 	
 	//Page Factory - OR:
-	@FindBy(name="username")
+	@FindBy(name="email")
 	WebElement username;
 	
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@type='submit']")
+	@FindBy(xpath="//*[@id=\"login-form\"]/form/button")
 	WebElement loginBtn;
 	
-	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
+/*	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
 	WebElement signUpBtn;
-	
-	@FindBy(xpath="//img[contains(@class,'img-responsive')]")
-	WebElement crmLogo;
+	*/
+	@FindBy(xpath="/html[1]/body[1]/div[1]/div[1]/md-content[1]/div[1]/div[1]/div[1]/div[1]/img[1]")
+	WebElement saplingLogo;
 	
 	//Initializing the Page Objects:
 	public LoginPage(){
@@ -35,12 +35,12 @@ public class LoginPage extends TestBase{
 		return driver.getTitle();
 	}
 	
-	public boolean validateCRMImage(){
-		return crmLogo.isDisplayed();
+	public boolean validatesaplinglogo(){
+		return saplingLogo.isDisplayed();
 	}
 	
-	public HomePage login(String un, String pwd){
-		username.sendKeys(un);
+	public HomePage login(String usr, String pwd){
+		username.sendKeys(usr);
 		password.sendKeys(pwd);
 		//loginBtn.click();
 		    	JavascriptExecutor js = (JavascriptExecutor)driver;
