@@ -5,35 +5,35 @@
       <![CDATA[Sapling HR]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24451" started-at="2018-12-04T07:15:44Z" finished-at="2018-12-04T07:16:09Z">
+  <suite name="Default suite" duration-ms="44801" started-at="2018-12-04T07:55:12Z" finished-at="2018-12-04T07:55:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24451" started-at="2018-12-04T07:15:44Z" finished-at="2018-12-04T07:16:09Z">
+    <test name="Default test" duration-ms="44801" started-at="2018-12-04T07:55:12Z" finished-at="2018-12-04T07:55:57Z">
       <class name="com.sapling.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="setUp" is-config="true" duration-ms="10955" started-at="2018-12-04T12:45:44Z" finished-at="2018-12-04T12:45:55Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="setUp" is-config="true" duration-ms="27009" started-at="2018-12-04T13:25:12Z" finished-at="2018-12-04T13:25:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="verifyHomePageTitleTest" duration-ms="16" started-at="2018-12-04T12:45:55Z" finished-at="2018-12-04T12:45:55Z">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="verifyHomePageTitleTest" duration-ms="11" started-at="2018-12-04T13:25:39Z" finished-at="2018-12-04T13:25:39Z">
           <reporter-output>
             <line>
               <![CDATA[Sapling HR]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="tearDown" is-config="true" duration-ms="674" started-at="2018-12-04T12:45:55Z" finished-at="2018-12-04T12:45:56Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="tearDown" is-config="true" duration-ms="722" started-at="2018-12-04T13:25:39Z" finished-at="2018-12-04T13:25:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="setUp" is-config="true" duration-ms="8691" started-at="2018-12-04T12:45:56Z" finished-at="2018-12-04T12:46:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="setUp" is-config="true" duration-ms="12852" started-at="2018-12-04T13:25:40Z" finished-at="2018-12-04T13:25:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Verifysignoff()[pri:2, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="Verifysignoff" duration-ms="3424" started-at="2018-12-04T12:46:05Z" finished-at="2018-12-04T12:46:08Z">
+        <test-method status="PASS" signature="verifysignoff()[pri:2, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="verifysignoff" duration-ms="3461" started-at="2018-12-04T13:25:53Z" finished-at="2018-12-04T13:25:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verifysignoff -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="tearDown" is-config="true" duration-ms="673" started-at="2018-12-04T12:46:08Z" finished-at="2018-12-04T12:46:09Z">
+        </test-method> <!-- verifysignoff -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@47c62251]" name="tearDown" is-config="true" duration-ms="724" started-at="2018-12-04T13:25:56Z" finished-at="2018-12-04T13:25:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

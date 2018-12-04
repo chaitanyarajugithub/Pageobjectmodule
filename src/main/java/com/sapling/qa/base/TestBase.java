@@ -51,7 +51,7 @@ public class TestBase {
 		}
 		else if(browserName.equals("Opera")){
 			OperaOptions options = new OperaOptions();
-			options.setBinary("C:\\Users\\Dizerc1\\AppData\\Local\\Programs\\Opera\\56.0.3051.52\\opera.exe");
+			options.setBinary("C:\\Users\\Dizerc1\\AppData\\Local\\Programs\\Opera\\56.0.3051.116\\opera.exe");
 			driver = new OperaDriver(options);
 					}
 		else if(browserName.equals("IE")){
