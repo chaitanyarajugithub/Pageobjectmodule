@@ -18,7 +18,7 @@ public class HomePageTest extends TestBase {
 	Logoff logoff;
 	HomePage homePage;
 	TestUtil testUtil;
-	Profilesetuppage contactsPage;
+	Profilesetuppage profilesetuppage;
 
 	public HomePageTest() {
 		super();
@@ -33,7 +33,7 @@ public class HomePageTest extends TestBase {
 	public void setUp() {
 		initialization();
 		testUtil = new TestUtil();
-		contactsPage = new Profilesetuppage();
+		profilesetuppage = new Profilesetuppage();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		
@@ -61,7 +61,7 @@ public class HomePageTest extends TestBase {
 	@Test(priority=4,enabled = false)
 	public void verifyContactsLinkTest(){
 		testUtil.switchToFrame();
-		//contactsPage = homePage.clickOnContactsLink();
+		profilesetuppage = homePage.clickOnProfilesetup();
 	}
 	
 	

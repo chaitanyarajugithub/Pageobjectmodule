@@ -26,11 +26,11 @@ public class LoginPageTest extends TestBase{
 	@Test(priority=1)
 	public void loginPageTitleTest(){
 		String title = loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "#1 Free CRM for Any Business: Online Customer Relationship Software");
+		Assert.assertEquals(title, "Sapling HR");
 	}
 	
 	@Test(priority=2)
-	public void crmLogoImageTest(){
+	public void SaplingLogoImageTest(){
 		boolean flag = loginPage.validatesaplinglogo();
 		Assert.assertTrue(flag);
 	}
