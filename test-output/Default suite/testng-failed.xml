@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Verifysignoff"/>
+          <include name="verifysignoff"/>
         </methods>
       </class> <!-- com.sapling.qa.testcases.HomePageTest -->
     </classes>
