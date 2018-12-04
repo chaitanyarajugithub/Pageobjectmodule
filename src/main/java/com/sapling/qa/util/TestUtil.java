@@ -14,7 +14,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.sapling.qa.base.TestBase;
+import com.sapling.qa.base.TestBase;;
 
 public class TestUtil extends TestBase {
 
