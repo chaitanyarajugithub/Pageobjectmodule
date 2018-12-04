@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
 import com.sapling.qa.base.TestBase;
-import com.sapling.qa.pages.ContactsPage;
+import com.sapling.qa.pages.Profilesetuppage;
 import com.sapling.qa.pages.HomePage;
 import com.sapling.qa.pages.LoginPage;
 import com.sapling.qa.util.TestUtil;
@@ -30,7 +30,7 @@ public class ContactsPageTest extends TestBase{
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
-	ContactsPage contactsPage;
+	Profilesetuppage contactsPage;
 	
 	String sheetName = "contacts";
 	
@@ -46,12 +46,12 @@ public class ContactsPageTest extends TestBase{
 		
 		initialization();
 		testUtil = new TestUtil();
-		contactsPage = new ContactsPage();
+		contactsPage = new Profilesetuppage();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 		TestUtil.runTimeInfo("error", "login successful");
 		testUtil.switchToFrame();
-		contactsPage = homePage.clickOnContactsLink();
+	//	contactsPage = homePage.clickOnContactsLink();
 	}
 	
 	@Test(priority=1)
@@ -80,7 +80,7 @@ public class ContactsPageTest extends TestBase{
 	
 	@Test(priority=4, dataProvider="getCRMTestData")
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
-		homePage.clickOnNewContactLink();
+	//	homePage.clickOnNewContactLink();
 		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
 		contactsPage.createNewContact(title, firstName, lastName, company);
 		

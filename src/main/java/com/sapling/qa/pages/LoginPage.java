@@ -1,5 +1,7 @@
 package com.sapling.qa.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,7 +47,7 @@ public class LoginPage extends TestBase{
 		//loginBtn.click();
 		    	JavascriptExecutor js = (JavascriptExecutor)driver;
 		    	js.executeScript("arguments[0].click();", loginBtn);
-		    	
+	 	driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);    	
 		return new HomePage();
 	}
 	

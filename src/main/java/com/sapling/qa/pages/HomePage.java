@@ -1,5 +1,6 @@
 package com.sapling.qa.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -10,22 +11,22 @@ import com.sapling.qa.base.TestBase;
 
 public class HomePage extends TestBase {
 
-	@FindBy(xpath = "//td[contains(text(),'User: Naveen K')]")
+	@FindBy(xpath = "//span[@class='username md-subhead secondary-text login_username ng-binding']")
 	@CacheLookup
 	WebElement userNameLabel;
 
-	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
-	WebElement contactsLink;
+	@FindBy(xpath = "//ul[@class='ng-scope']//li[4]//div[1]//a[1]")
+	WebElement Profilesetup;
 	
-	@FindBy(xpath = "//a[contains(text(),'New Contact')]")
-	WebElement newContactLink;
+	@FindBy(xpath = "//ul[@class='ng-scope']//li[3]//div[1]//a[1]")
+	WebElement Emailsetup;
 	
 
-	@FindBy(xpath = "//a[contains(text(),'Deals')]")
-	WebElement dealsLink;
+	@FindBy(xpath = "//ul[@class='ng-scope']//li[5]//div[1]//a[1]")
+	WebElement Timeoff;
 
-	@FindBy(xpath = "//a[contains(text(),'Tasks')]")
-	WebElement tasksLink;
+	@FindBy(xpath = "//ul[@class='ng-scope']//li[6]//div[1]//a[1]")
+	WebElement Permissions;
 
 	// Initializing the Page Objects:
 	public HomePage() {
@@ -41,27 +42,32 @@ public class HomePage extends TestBase {
 		return userNameLabel.isDisplayed();
 	}
 	
-	public ContactsPage clickOnContactsLink(){
-		contactsLink.click();
-		return new ContactsPage();
+	public Profilesetuppage clickOnProfilesetup(){
+		Profilesetup.click();
+		return new Profilesetuppage();
 	}
 	
-	public DealsPage clickOnDealsLink(){
-		dealsLink.click();
-		return new DealsPage();
+	public Emailsetuppage clickOnEmailLink(){
+		Emailsetup.click();
+		return new Emailsetuppage();
 	}
 	
-	public TasksPage clickOnTasksLink(){
-		tasksLink.click();
-		return new TasksPage();
+	public Timeoffpage clickOnTimeoffLink(){
+		Timeoff.click();
+		return new Timeoffpage();
+	}
+	public Permissionspage clickOnPermissionsLink(){
+		Permissions.click();
+		return new Permissionspage();
 	}
 	
-	public void clickOnNewContactLink(){
+	
+	/*public void clickOnNewContactLink(){
 		Actions action = new Actions(driver);
 		action.moveToElement(contactsLink).build().perform();
 		newContactLink.click();
 		
-	}
+	}*/
 	
 	
 	

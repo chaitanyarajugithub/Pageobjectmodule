@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.sapling.qa.base.TestBase;
 
-public class ContactsPage extends TestBase {
+public class Profilesetuppage extends TestBase {
 
 	@FindBy(xpath = "//td[contains(text(),'Contacts')]")
 	WebElement contactsLabel;
@@ -28,7 +28,7 @@ public class ContactsPage extends TestBase {
 	
 	
 	// Initializing the Page Objects:
-	public ContactsPage() {
+	public Profilesetuppage() {
 		PageFactory.initElements(driver, this);
 	}
 	

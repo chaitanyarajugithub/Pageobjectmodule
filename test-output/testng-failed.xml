@@ -6,10 +6,8 @@
       <class name="com.sapling.qa.testcases.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifyUserNameTest"/>
           <include name="tearDown"/>
-          <include name="verifyContactsLinkTest"/>
+          <include name="Verifysignoff"/>
         </methods>
       </class> <!-- com.sapling.qa.testcases.HomePageTest -->
     </classes>
