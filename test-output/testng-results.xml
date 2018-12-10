@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
+<testng-results skipped="0" failed="1" ignored="2" total="7" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Sapling HR]]>
+    </line>
   </reporter-output>
-  <suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" duration-ms="10909" started-at="2018-12-04T08:26:53Z" finished-at="2018-12-04T08:27:04Z">
+  <suite name="Sapling Application Test Automation Test Suite" duration-ms="50128" started-at="2018-12-04T09:31:21Z" finished-at="2018-12-04T09:32:11Z">
     <groups>
     </groups>
-    <test name="Free CRM App Test Cases(failed)" duration-ms="10909" started-at="2018-12-04T08:26:53Z" finished-at="2018-12-04T08:27:04Z">
+    <test name="Sapling App Test Cases" duration-ms="50128" started-at="2018-12-04T09:31:21Z" finished-at="2018-12-04T09:32:11Z">
       <class name="com.sapling.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@1e88b3c]" name="setUp" is-config="true" duration-ms="8463" started-at="2018-12-04T13:56:53Z" finished-at="2018-12-04T13:57:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="8477" started-at="2018-12-04T15:01:21Z" finished-at="2018-12-04T15:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="SaplingLogoImageTest()[pri:2, instance:com.sapling.qa.testcases.LoginPageTest@1e88b3c]" name="SaplingLogoImageTest" duration-ms="1770" started-at="2018-12-04T13:57:02Z" finished-at="2018-12-04T13:57:04Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="loginPageTitleTest" duration-ms="14" started-at="2018-12-04T15:01:29Z" finished-at="2018-12-04T15:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-12-04T15:01:29Z" finished-at="2018-12-04T15:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="6888" started-at="2018-12-04T15:01:40Z" finished-at="2018-12-04T15:01:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="SaplingLogoImageTest()[pri:2, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="SaplingLogoImageTest" duration-ms="1265" started-at="2018-12-04T15:01:47Z" finished-at="2018-12-04T15:01:48Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -54,11 +69,52 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SaplingLogoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@1e88b3c]" name="tearDown" is-config="true" duration-ms="658" started-at="2018-12-04T13:57:04Z" finished-at="2018-12-04T13:57:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="702" started-at="2018-12-04T15:01:48Z" finished-at="2018-12-04T15:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="7037" started-at="2018-12-04T15:02:02Z" finished-at="2018-12-04T15:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="loginTest" duration-ms="1311" started-at="2018-12-04T15:02:09Z" finished-at="2018-12-04T15:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.LoginPageTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="633" started-at="2018-12-04T15:02:10Z" finished-at="2018-12-04T15:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.sapling.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM App Test Cases(failed) -->
-  </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+      <class name="com.sapling.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9630" started-at="2018-12-04T15:01:30Z" finished-at="2018-12-04T15:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="verifyHomePageTitleTest" duration-ms="5" started-at="2018-12-04T15:01:40Z" finished-at="2018-12-04T15:01:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sapling HR]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="641" started-at="2018-12-04T15:01:40Z" finished-at="2018-12-04T15:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="9228" started-at="2018-12-04T15:01:49Z" finished-at="2018-12-04T15:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifysignoff()[pri:2, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="verifysignoff" duration-ms="2951" started-at="2018-12-04T15:01:58Z" finished-at="2018-12-04T15:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignoff -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sapling.qa.testcases.HomePageTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="684" started-at="2018-12-04T15:02:01Z" finished-at="2018-12-04T15:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sapling.qa.testcases.HomePageTest -->
+    </test> <!-- Sapling App Test Cases -->
+  </suite> <!-- Sapling Application Test Automation Test Suite -->
 </testng-results>

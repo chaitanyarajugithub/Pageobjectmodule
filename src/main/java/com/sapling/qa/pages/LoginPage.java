@@ -38,6 +38,7 @@ public class LoginPage extends TestBase{
 	}
 	
 	public boolean validatesaplinglogo(){
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		return saplingLogo.isDisplayed();
 	}
 	
