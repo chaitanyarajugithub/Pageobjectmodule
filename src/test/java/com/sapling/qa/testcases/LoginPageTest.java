@@ -29,13 +29,13 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(title, "Sapling HR");
 	}
 	
-//	@Test(priority=2)
-//	public void SaplingLogoImageTest(){
-//	boolean flag = loginPage.validatesaplinglogo();
-//		Assert.assertTrue(flag);
-//	}
-//	
-	@Test(priority=3)
+	@Test(enabled = false)
+	public void SaplingLogoImageTest(){
+	boolean flag = loginPage.validatesaplinglogo();
+		Assert.assertTrue(flag);
+	}
+	
+	@Test(priority=2)
 	public void loginTest(){
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
